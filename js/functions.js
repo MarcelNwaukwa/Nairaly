@@ -135,7 +135,7 @@ function populate(s1, s2) {
 }
 
 function fill_product_category_data() {
-    // Fill Product category list
+    //Fill Product category list
     var select = document.getElementById("product_category");
     if (select) {
         var keys = Object.keys(duty_rates);
