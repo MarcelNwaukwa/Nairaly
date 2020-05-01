@@ -14,7 +14,7 @@ duty_rate_xhttp.onreadystatechange = function () {
 duty_rate_xhttp.open("GET", "data/duty_rate.json", true);
 duty_rate_xhttp.send();
 
-// Levy Rate json
+// Levy Rate json format
 levy_rate_xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         levy_rates = JSON.parse(levy_rate_xhttp.responseText);
