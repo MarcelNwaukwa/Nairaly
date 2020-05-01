@@ -1,4 +1,4 @@
-// Popover 
+//Popover 
 $(document).ready(function () {
     $(".pop").popover({ trigger: "manual", html: true, animation: false })
         .on("mouseenter", function () {
